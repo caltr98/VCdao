@@ -1,0 +1,115 @@
+<mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="SyItrteXaewnenq4WMbz-1" connectable="0" parent="1" style="group" value="" vertex="1">
+          <mxGeometry height="80" width="71" x="130" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="SyItrteXaewnenq4WMbz-2" edge="1" parent="SyItrteXaewnenq4WMbz-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="77.75" y="22" as="sourcePoint" />
+            <mxPoint x="247.75" y="22" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SyItrteXaewnenq4WMbz-3" parent="SyItrteXaewnenq4WMbz-1" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=#32A834;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#cdeb8b;shape=mxgraph.mscae.intune.user_group" value="" vertex="1">
+          <mxGeometry height="47" width="66" as="geometry" />
+        </mxCell>
+        <mxCell id="SyItrteXaewnenq4WMbz-4" parent="SyItrteXaewnenq4WMbz-1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Multisig. Wallet" vertex="1">
+          <mxGeometry height="30" width="80" x="-27" y="46" as="geometry" />
+        </mxCell>
+        <mxCell id="SyItrteXaewnenq4WMbz-5" parent="SyItrteXaewnenq4WMbz-1" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://icons.diagrams.net/icon-cache1/Essential_pack-2971/85-Wallet-1223.svg" value="" vertex="1">
+          <mxGeometry height="15" width="15" x="56" y="55" as="geometry" />
+        </mxCell>
+        <mxCell id="SyItrteXaewnenq4WMbz-6" connectable="0" parent="1" style="group" value="" vertex="1">
+          <mxGeometry height="73.5" width="56.25" x="379.75" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="SyItrteXaewnenq4WMbz-7" parent="SyItrteXaewnenq4WMbz-6" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=#497DB8;fillColor=#cce5ff;shape=mxgraph.azure.user;" value="" vertex="1">
+          <mxGeometry height="50" width="44.53125" x="5.859375" as="geometry" />
+        </mxCell>
+        <mxCell id="SyItrteXaewnenq4WMbz-8" parent="SyItrteXaewnenq4WMbz-6" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Holder" vertex="1">
+          <mxGeometry height="30" width="56.25" y="43.5" as="geometry" />
+        </mxCell>
+        <mxCell id="SyItrteXaewnenq4WMbz-9" connectable="0" parent="1" style="group" value="" vertex="1">
+          <mxGeometry height="76" width="63" x="618" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="SyItrteXaewnenq4WMbz-10" parent="SyItrteXaewnenq4WMbz-9" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Verifier" vertex="1">
+          <mxGeometry height="30" width="60" y="46" as="geometry" />
+        </mxCell>
+        <mxCell id="SyItrteXaewnenq4WMbz-11" parent="SyItrteXaewnenq4WMbz-9" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=light-dark(#FF9933,#BABDC0);fillColor=#ffcc99;shape=mxgraph.azure.user;" value="" vertex="1">
+          <mxGeometry height="50" width="47.5" x="4.25" as="geometry" />
+        </mxCell>
+        <mxCell id="SyItrteXaewnenq4WMbz-12" parent="SyItrteXaewnenq4WMbz-9" style="sketch=0;html=1;aspect=fixed;shadow=0;verticalAlign=top;labelPosition=center;verticalLabelPosition=bottom;shape=mxgraph.gcp2.check;strokeColor=#FFFFFF;fillColor=#FF8000;" value="" vertex="1">
+          <mxGeometry height="20" width="25" x="38" y="36" as="geometry" />
+        </mxCell>
+        <mxCell id="SyItrteXaewnenq4WMbz-13" connectable="0" parent="1" style="group" value="" vertex="1">
+          <mxGeometry height="70" width="60" x="377.75" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="SyItrteXaewnenq4WMbz-14" parent="SyItrteXaewnenq4WMbz-13" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/generic_node.svg;" value="" vertex="1">
+          <mxGeometry height="49" width="50" x="5" as="geometry" />
+        </mxCell>
+        <mxCell id="SyItrteXaewnenq4WMbz-15" parent="SyItrteXaewnenq4WMbz-13" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Blockchain" vertex="1">
+          <mxGeometry height="30" width="60" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="SyItrteXaewnenq4WMbz-16" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="436" y="186" as="sourcePoint" />
+            <mxPoint x="616" y="186" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SyItrteXaewnenq4WMbz-17" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="163" y="330" />
+            </Array>
+            <mxPoint x="163" y="240" as="sourcePoint" />
+            <mxPoint x="366" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SyItrteXaewnenq4WMbz-18" edge="1" parent="1" source="SyItrteXaewnenq4WMbz-8" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="SyItrteXaewnenq4WMbz-14" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="386" y="260" as="sourcePoint" />
+            <mxPoint x="436" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SyItrteXaewnenq4WMbz-19" edge="1" parent="1" source="SyItrteXaewnenq4WMbz-10" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="648" y="330" />
+            </Array>
+            <mxPoint x="386" y="260" as="sourcePoint" />
+            <mxPoint x="446" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SyItrteXaewnenq4WMbz-20" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;&lt;i&gt;3. Issues the VC&lt;/i&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="130" x="230" y="185" as="geometry" />
+        </mxCell>
+        <mxCell id="SyItrteXaewnenq4WMbz-21" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;&lt;i&gt;1.2. Proposes RejSBT&lt;/i&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="150" x="181" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="SyItrteXaewnenq4WMbz-22" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;i&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;2. Accepts or rejects RejSBT proposal&lt;/font&gt;&lt;/i&gt;" vertex="1">
+          <mxGeometry height="30" width="100" x="414" y="236" as="geometry" />
+        </mxCell>
+        <mxCell id="SyItrteXaewnenq4WMbz-23" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;i&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;4. Send VP&lt;/font&gt;&lt;/i&gt;" vertex="1">
+          <mxGeometry height="30" width="120" x="464" y="162" as="geometry" />
+        </mxCell>
+        <mxCell id="SyItrteXaewnenq4WMbz-24" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;i&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;5. Verifies VC state &amp;amp; its correctness.&amp;nbsp;&lt;/font&gt;&lt;/i&gt;" vertex="1">
+          <mxGeometry height="30" width="110" x="506" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="SyItrteXaewnenq4WMbz-25" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Issuers" vertex="1">
+          <mxGeometry height="30" width="60" x="141" y="146" as="geometry" />
+        </mxCell>
+        <mxCell id="SyItrteXaewnenq4WMbz-26" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;div&gt;&lt;b&gt;SSI Wallet:&lt;/b&gt;&lt;/div&gt;DID priv-key&lt;div&gt;BLS priv-key&lt;/div&gt;" vertex="1">
+          <mxGeometry height="10" width="130" x="176" y="236" as="geometry" />
+        </mxCell>
+        <mxCell id="SyItrteXaewnenq4WMbz-27" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="207.75" y="181.51" as="sourcePoint" />
+            <mxPoint x="377.75" y="181.51" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SyItrteXaewnenq4WMbz-28" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;&lt;i&gt;1.1. Share VC payload&lt;/i&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="129" x="230" y="155" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  

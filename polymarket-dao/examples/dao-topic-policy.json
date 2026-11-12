@@ -1,0 +1,1084 @@
+{
+  "version": "dao-polymarket-topics-1",
+  "topics": [
+    {
+      "id": 0,
+      "name": "AI & Data",
+      "classifications": [
+        "ai",
+        "artificial-intelligence",
+        "gpt-5",
+        "openai"
+      ],
+      "priority": 90
+    },
+    {
+      "id": 1,
+      "name": "Cloud & Cybersecurity",
+      "classifications": [
+        "cybersecurity",
+        "cyber-security",
+        "cloud",
+        "data-breach"
+      ],
+      "priority": 100
+    },
+    {
+      "id": 2,
+      "name": "FinTech & Blockchain",
+      "classifications": [
+        "crypto",
+        "bitcoin",
+        "ethereum",
+        "stablecoins",
+        "token-launch",
+        "airdrops"
+      ],
+      "priority": 80
+    },
+    {
+      "id": 3,
+      "name": "Enterprise Software",
+      "classifications": [
+        "software",
+        "enterprise-software",
+        "big-tech",
+        "tech"
+      ],
+      "priority": 40
+    },
+    {
+      "id": 4,
+      "name": "Politics & Public Policy",
+      "classifications": [
+        "politics",
+        "elections",
+        "us-government",
+        "us-presidential-election",
+        "midterms",
+        "global-elections",
+        "governor-midterms",
+        "mayoral-elections",
+        "senate-elections",
+        "primaries",
+        "fiscal",
+        "taxes",
+        "legal",
+        "supreme-court",
+        "uk-labour-leadership",
+        "trump-presidency"
+      ],
+      "priority": 60
+    },
+    {
+      "id": 5,
+      "name": "Geopolitics",
+      "classifications": [
+        "geopolitics",
+        "foreign-policy",
+        "international-affairs",
+        "world-affairs",
+        "military-action",
+        "russia-capture",
+        "ukraine-map",
+        "security-guarantee"
+      ],
+      "priority": 95
+    },
+    {
+      "id": 6,
+      "name": "Macroeconomics & Finance",
+      "classifications": [
+        "economy",
+        "finance",
+        "economic-policy",
+        "fed",
+        "fed-rates",
+        "inflation",
+        "interest-rates",
+        "ipos",
+        "ipo",
+        "business"
+      ],
+      "priority": 70
+    },
+    {
+      "id": 7,
+      "name": "Sports Analytics",
+      "classifications": [
+        "sports",
+        "soccer",
+        "nba",
+        "nfl",
+        "mlb",
+        "tennis",
+        "cricket",
+        "esports"
+      ],
+      "priority": 90
+    },
+    {
+      "id": 8,
+      "name": "Science & Environment",
+      "classifications": [
+        "science",
+        "health",
+        "weather",
+        "climate",
+        "climate-science",
+        "public-health",
+        "energy",
+        "earthquakes",
+        "hurricanes"
+      ],
+      "priority": 80
+    },
+    {
+      "id": 9,
+      "name": "Culture & Media",
+      "classifications": [
+        "culture",
+        "music",
+        "movies",
+        "film",
+        "awards",
+        "celebrities",
+        "entertainment",
+        "oscars"
+      ],
+      "priority": 70
+    }
+  ],
+  "skills": [
+    {
+      "name": "machineLearning",
+      "relevance": [
+        35,
+        5,
+        5,
+        15,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "dataEngineering",
+      "relevance": [
+        30,
+        20,
+        15,
+        20,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "cyberSecurity",
+      "relevance": [
+        15,
+        35,
+        25,
+        20,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "cloudArchitecture",
+      "relevance": [
+        15,
+        30,
+        20,
+        30,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "distributedSystems",
+      "relevance": [
+        20,
+        30,
+        25,
+        30,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "blockchain",
+      "relevance": [
+        5,
+        15,
+        35,
+        15,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "softwareArchitecture",
+      "relevance": [
+        15,
+        25,
+        20,
+        35,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "startupFinance",
+      "relevance": [
+        15,
+        10,
+        30,
+        25,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "politicalScience",
+      "relevance": [
+        0,
+        0,
+        0,
+        0,
+        35,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "electoralAnalysis",
+      "relevance": [
+        0,
+        0,
+        0,
+        0,
+        30,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "publicPolicy",
+      "relevance": [
+        0,
+        0,
+        0,
+        0,
+        25,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "institutionalAnalysis",
+      "relevance": [
+        0,
+        0,
+        0,
+        0,
+        20,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "pollingAnalysis",
+      "relevance": [
+        0,
+        0,
+        0,
+        0,
+        20,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "constitutionalLaw",
+      "relevance": [
+        0,
+        0,
+        0,
+        0,
+        15,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "campaignAnalysis",
+      "relevance": [
+        0,
+        0,
+        0,
+        0,
+        15,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "politicalEconomy",
+      "relevance": [
+        0,
+        0,
+        0,
+        0,
+        15,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "internationalRelations",
+      "relevance": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        35,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "regionalStudies",
+      "relevance": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        30,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "securityAnalysis",
+      "relevance": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        25,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "diplomacy",
+      "relevance": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        20,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "conflictAnalysis",
+      "relevance": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        20,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "internationalLaw",
+      "relevance": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        15,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "militaryAnalysis",
+      "relevance": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        15,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "geopoliticalRisk",
+      "relevance": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        15,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "macroeconomics",
+      "relevance": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        35,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "monetaryPolicy",
+      "relevance": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        30,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "financialAnalysis",
+      "relevance": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        25,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "economicStatistics",
+      "relevance": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        20,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "marketAnalysis",
+      "relevance": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        20,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "fiscalPolicy",
+      "relevance": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        15,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "corporateFinance",
+      "relevance": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        15,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "riskManagement",
+      "relevance": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        15,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "sportsStatistics",
+      "relevance": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        35,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "leagueAnalysis",
+      "relevance": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        30,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "performanceAnalysis",
+      "relevance": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        25,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "sportsEconomics",
+      "relevance": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        20,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "teamAnalysis",
+      "relevance": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        20,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "playerAnalysis",
+      "relevance": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        15,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "sportsForecasting",
+      "relevance": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        15,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "gameTheory",
+      "relevance": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        15,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "scientificResearch",
+      "relevance": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        35,
+        0
+      ]
+    },
+    {
+      "name": "epidemiology",
+      "relevance": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        30,
+        0
+      ]
+    },
+    {
+      "name": "climateScience",
+      "relevance": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        25,
+        0
+      ]
+    },
+    {
+      "name": "meteorology",
+      "relevance": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        20,
+        0
+      ]
+    },
+    {
+      "name": "energySystems",
+      "relevance": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        20,
+        0
+      ]
+    },
+    {
+      "name": "biostatistics",
+      "relevance": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        15,
+        0
+      ]
+    },
+    {
+      "name": "environmentalScience",
+      "relevance": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        15,
+        0
+      ]
+    },
+    {
+      "name": "publicHealth",
+      "relevance": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        15,
+        0
+      ]
+    },
+    {
+      "name": "mediaAnalysis",
+      "relevance": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        35
+      ]
+    },
+    {
+      "name": "entertainmentEconomics",
+      "relevance": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        30
+      ]
+    },
+    {
+      "name": "audienceResearch",
+      "relevance": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        25
+      ]
+    },
+    {
+      "name": "culturalStudies",
+      "relevance": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        20
+      ]
+    },
+    {
+      "name": "filmAnalysis",
+      "relevance": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        20
+      ]
+    },
+    {
+      "name": "musicIndustry",
+      "relevance": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        15
+      ]
+    },
+    {
+      "name": "awardsAnalysis",
+      "relevance": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        15
+      ]
+    },
+    {
+      "name": "mediaStatistics",
+      "relevance": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        15
+      ]
+    }
+  ],
+  "boosts": [
+    {
+      "topic": 0,
+      "skills": [
+        "machineLearning",
+        "dataEngineering"
+      ],
+      "bonus": 10
+    },
+    {
+      "topic": 1,
+      "skills": [
+        "cyberSecurity",
+        "cloudArchitecture"
+      ],
+      "bonus": 10
+    },
+    {
+      "topic": 2,
+      "skills": [
+        "blockchain",
+        "startupFinance"
+      ],
+      "bonus": 10
+    },
+    {
+      "topic": 3,
+      "skills": [
+        "softwareArchitecture",
+        "cloudArchitecture"
+      ],
+      "bonus": 10
+    },
+    {
+      "topic": 4,
+      "skills": [
+        "politicalScience",
+        "electoralAnalysis"
+      ],
+      "bonus": 10
+    },
+    {
+      "topic": 5,
+      "skills": [
+        "internationalRelations",
+        "regionalStudies"
+      ],
+      "bonus": 10
+    },
+    {
+      "topic": 6,
+      "skills": [
+        "macroeconomics",
+        "monetaryPolicy"
+      ],
+      "bonus": 10
+    },
+    {
+      "topic": 7,
+      "skills": [
+        "sportsStatistics",
+        "leagueAnalysis"
+      ],
+      "bonus": 10
+    },
+    {
+      "topic": 8,
+      "skills": [
+        "scientificResearch",
+        "epidemiology"
+      ],
+      "bonus": 10
+    },
+    {
+      "topic": 9,
+      "skills": [
+        "mediaAnalysis",
+        "entertainmentEconomics"
+      ],
+      "bonus": 10
+    }
+  ],
+  "overrides": {},
+  "assumptions": {
+    "credentialTrust": "An existing issuer trust model is assumed.",
+    "classification": "The DAO chooses the catalog, relevance and classification policy.",
+    "solver": "A DAO member, including the proposer, can act as solver.",
+    "externalInfrastructure": "Polymarket operates its exchange, relayer and oracle.",
+    "expiry": "No purchase payment on missing delivery; expire() releases the reservation after the deadline."
+  }
+}

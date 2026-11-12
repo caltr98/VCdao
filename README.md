@@ -3,3 +3,11 @@ Si ha che il VP storico derivato da skill viene mantenuto tramite checkpoint, ch
 Abbiamo che una stessa skill contribuisce in modo diverso al VP in base alla rilevanza rispetto al topic di votazione. Il VP viene preso per ogni utente tramite uno snapshot eseguito all’inizio della votazione, alla fine del voting delay. Abbiamo ottimizzato la rappresentazione on-chain delle skill di un membro, utilizzando una bitmap, che ci permette di salvare con un singolo intero tutte le skill di un membro, in modo da risparmiare costo di gas in storage.
 Per implementare la soluzione abbiamo utilizzato la blockchain Ethereum, il linguaggio Solidity e i framework OpenZeppelin e Veramo. 
 Abbiamo infine alcune sperimentazioni sul costo del gas e in modo particolare sulla scalibità dell’utilizzo della bitmap al crescere del numero di skills gestite. Abbiamo infine fatto un’analisi di sicurezza, analizzando le principali minacce gestite dal sistema e i principali rischi legati alla privacy della rappresentazione on-chain.
+
+## Polymarket extension (SAGE paper)
+
+`polymarket-dao/` extends the DAO in `dao/` with a Polymarket case study: a
+Governor that validates market actions, a Treasury and order vault, and the
+purchase, redemption and refund flows. Its `contracts/prestifilippo/` folder
+pins the contracts of `dao/contracts` at commit `6bed776`; `polymarket-dao/UPSTREAM.md`
+lists the two adaptations. See `polymarket-dao/README.md` to build and test.

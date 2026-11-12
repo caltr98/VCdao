@@ -1,0 +1,127 @@
+<mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#64748b;fontColor=#172033;fontSize=17;spacing=12;strokeColor=none;fontSize=28;align=left;" value="&lt;b&gt;DAO → Polymarket → DAO payout&lt;/b&gt;" vertex="1">
+          <mxGeometry height="45" width="1180" x="40" y="15" as="geometry" />
+        </mxCell>
+        <mxCell id="subtitle" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#64748b;fontColor=#172033;fontSize=17;spacing=12;strokeColor=none;fontSize=17;align=left;" value="Open Dutch-auction delivery • permissionless on-chain redemption in new vault deployments" vertex="1">
+          <mxGeometry height="30" width="1180" x="40" y="65" as="geometry" />
+        </mxCell>
+        <mxCell id="ghead" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#64748b;fontColor=#172033;fontSize=17;spacing=12;strokeColor=none;align=left;" value="&lt;b&gt;1 · Governance approves a bounded purchase&lt;/b&gt;" vertex="1">
+          <mxGeometry height="30" width="1180" x="40" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="proposal" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ede9fe;strokeColor=#64748b;fontColor=#172033;fontSize=17;spacing=12;" value="&lt;b&gt;Market proposal&lt;/b&gt;&lt;br&gt;Condition + outcome token&lt;br&gt;Exact shares, payment cap&lt;br&gt;Execution deadline" vertex="1">
+          <mxGeometry height="130" width="260" x="40" y="155" as="geometry" />
+        </mxCell>
+        <mxCell id="vote" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ede9fe;strokeColor=#64748b;fontColor=#172033;fontSize=17;spacing=12;" value="&lt;b&gt;DAO members vote&lt;/b&gt;&lt;br&gt;Stake + market expertise&lt;br&gt;Proposal must succeed" vertex="1">
+          <mxGeometry height="130" width="260" x="350" y="155" as="geometry" />
+        </mxCell>
+        <mxCell id="timelock" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ede9fe;strokeColor=#64748b;fontColor=#172033;fontSize=17;spacing=12;" value="&lt;b&gt;Governor + Timelock&lt;/b&gt;&lt;br&gt;Queue approved proposal&lt;br&gt;Wait governance delay&lt;br&gt;Execute authorizeBuy" vertex="1">
+          <mxGeometry height="130" width="260" x="660" y="155" as="geometry" />
+        </mxCell>
+        <mxCell id="auction" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d1fae5;strokeColor=#64748b;fontColor=#172033;fontSize=17;spacing=12;" value="&lt;b&gt;DAO vault: open auction&lt;/b&gt;&lt;br&gt;Reserve payment cap&lt;br&gt;Price rises from 0 to cap&lt;br&gt;First valid delivery wins" vertex="1">
+          <mxGeometry height="130" width="260" x="970" y="155" as="geometry" />
+        </mxCell>
+        <mxCell id="g1" edge="1" parent="1" source="proposal" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#475569;fontColor=#334155;fontSize=14;labelBackgroundColor=#ffffff;" target="vote" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="g2" edge="1" parent="1" source="vote" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#475569;fontColor=#334155;fontSize=14;labelBackgroundColor=#ffffff;" target="timelock" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="g3" edge="1" parent="1" source="timelock" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#475569;fontColor=#334155;fontSize=14;labelBackgroundColor=#ffffff;" target="auction" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ehead" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#64748b;fontColor=#172033;fontSize=17;spacing=12;strokeColor=none;align=left;" value="&lt;b&gt;2 · Solver buys externally; delivery and payment are atomic&lt;/b&gt;" vertex="1">
+          <mxGeometry height="30" width="1180" x="40" y="315" as="geometry" />
+        </mxCell>
+        <mxCell id="solver" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dbeafe;strokeColor=#64748b;fontColor=#172033;fontSize=17;spacing=12;" value="&lt;b&gt;Any solver&lt;/b&gt;&lt;br&gt;Uses its own money&lt;br&gt;Buys the approved outcome&lt;br&gt;Waits for an acceptable price" vertex="1">
+          <mxGeometry height="135" width="260" x="40" y="365" as="geometry" />
+        </mxCell>
+        <mxCell id="clob" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dbeafe;strokeColor=#64748b;fontColor=#172033;fontSize=17;spacing=12;" value="&lt;b&gt;Polymarket CLOB&lt;/b&gt;&lt;br&gt;Order submission off chain&lt;br&gt;Operator matches&lt;br&gt;Exchange settles on Polygon" vertex="1">
+          <mxGeometry height="135" width="260" x="350" y="365" as="geometry" />
+        </mxCell>
+        <mxCell id="wallet" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dbeafe;strokeColor=#64748b;fontColor=#172033;fontSize=17;spacing=12;" value="&lt;b&gt;Solver Deposit Wallet&lt;/b&gt;&lt;br&gt;Owns purchased shares&lt;br&gt;Pushes exact ERC1155 shares&lt;br&gt;with authorization references" vertex="1">
+          <mxGeometry height="135" width="260" x="660" y="365" as="geometry" />
+        </mxCell>
+        <mxCell id="custody" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d1fae5;strokeColor=#64748b;fontColor=#172033;fontSize=17;spacing=12;" value="&lt;b&gt;DAO vault: share custody&lt;/b&gt;&lt;br&gt;Checks token, shares, deadline&lt;br&gt;Pays the current auction price&lt;br&gt;DAO owns delivered shares" vertex="1">
+          <mxGeometry height="135" width="260" x="970" y="365" as="geometry" />
+        </mxCell>
+        <mxCell id="e1" edge="1" parent="1" source="solver" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#475569;fontColor=#334155;fontSize=14;labelBackgroundColor=#ffffff;" target="clob" value="buy">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e2" edge="1" parent="1" source="clob" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#475569;fontColor=#334155;fontSize=14;labelBackgroundColor=#ffffff;" target="wallet" value="shares">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e3" edge="1" parent="1" source="wallet" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#475569;fontColor=#334155;fontSize=14;labelBackgroundColor=#ffffff;" target="custody" value="push">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e4" edge="1" parent="1" source="auction" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#475569;fontColor=#334155;fontSize=14;labelBackgroundColor=#ffffff;" target="custody" value="approved terms">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="payment" edge="1" parent="1" source="custody" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#475569;fontColor=#334155;fontSize=14;labelBackgroundColor=#ffffff;exitX=0.5;exitY=1;entryX=0.5;entryY=1;strokeColor=#059669;" target="wallet" value="pUSD to solver wallet · same transaction">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1100" y="550" />
+              <mxPoint x="790" y="550" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rhead" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#64748b;fontColor=#172033;fontSize=17;spacing=12;strokeColor=none;align=left;" value="&lt;b&gt;3 · After oracle resolution, anyone can trigger the DAO payout&lt;/b&gt;" vertex="1">
+          <mxGeometry height="30" width="1180" x="40" y="605" as="geometry" />
+        </mxCell>
+        <mxCell id="caller" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dbeafe;strokeColor=#64748b;fontColor=#172033;fontSize=17;spacing=12;" value="&lt;b&gt;Any gas payer&lt;/b&gt;&lt;br&gt;EOA or automation&lt;br&gt;Calls vault.redeem(market)&lt;br&gt;Receives no payout" vertex="1">
+          <mxGeometry height="150" width="260" x="40" y="655" as="geometry" />
+        </mxCell>
+        <mxCell id="redeem" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d1fae5;strokeColor=#64748b;fontColor=#172033;fontSize=17;spacing=12;" value="&lt;b&gt;DAO vault: redeem&lt;/b&gt;&lt;br&gt;Same treasury owns the shares&lt;br&gt;Check real condition + resolution&lt;br&gt;Approve only fixed adapter&lt;br&gt;Check payout; clear approval" vertex="1">
+          <mxGeometry height="150" width="260" x="350" y="655" as="geometry" />
+        </mxCell>
+        <mxCell id="adapter" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffedd5;strokeColor=#64748b;fontColor=#172033;fontSize=17;spacing=12;" value="&lt;b&gt;Fixed collateral adapter&lt;/b&gt;&lt;br&gt;Pulls vault’s outcome shares&lt;br&gt;Calls Conditional Tokens&lt;br&gt;Wraps USDC.e payout as pUSD&lt;br&gt;Pays its caller: the DAO vault" vertex="1">
+          <mxGeometry height="150" width="260" x="660" y="655" as="geometry" />
+        </mxCell>
+        <mxCell id="ctf" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f1f5f9;strokeColor=#64748b;fontColor=#172033;fontSize=17;spacing=12;" value="&lt;b&gt;Conditional Tokens&lt;/b&gt;&lt;br&gt;Uses on-chain oracle payouts&lt;br&gt;Burns redeemed shares&lt;br&gt;Releases collateral&lt;br&gt;Unresolved condition → revert" vertex="1">
+          <mxGeometry height="150" width="260" x="1100" y="655" as="geometry" />
+        </mxCell>
+        <mxCell id="r1" edge="1" parent="1" source="caller" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#475569;fontColor=#334155;fontSize=14;labelBackgroundColor=#ffffff;" target="redeem" value="trigger">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="r2" edge="1" parent="1" source="redeem" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#475569;fontColor=#334155;fontSize=14;labelBackgroundColor=#ffffff;" target="adapter" value="redeem">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="r3" edge="1" parent="1" source="adapter" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#475569;fontColor=#334155;fontSize=14;labelBackgroundColor=#ffffff;" target="ctf" value="burn / redeem">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="holding" edge="1" parent="1" source="custody" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#475569;fontColor=#334155;fontSize=14;labelBackgroundColor=#ffffff;exitX=0.5;exitY=1;entryX=0.5;entryY=0;dashed=1;" target="redeem" value="DAO holds shares until redemption">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1100" y="585" />
+              <mxPoint x="480" y="585" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="usdce" edge="1" parent="1" source="ctf" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#475569;fontColor=#334155;fontSize=14;labelBackgroundColor=#ffffff;exitX=0.5;exitY=1;entryX=0.5;entryY=1;strokeColor=#d97706;" target="adapter" value="USDC.e collateral">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1220" y="805" />
+              <mxPoint x="1220" y="850" />
+              <mxPoint x="790" y="850" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="payout" edge="1" parent="1" source="adapter" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#475569;fontColor=#334155;fontSize=14;labelBackgroundColor=#ffffff;exitX=0.5;exitY=1;entryX=0.5;entryY=1;strokeColor=#059669;strokeWidth=3;" target="redeem" value="pUSD directly into DAO vault · no solver or personal-wallet payout">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="790" y="910" />
+              <mxPoint x="480" y="910" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="guardrails" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8fafc;strokeColor=#64748b;fontColor=#172033;fontSize=17;spacing=12;fontSize=15;align=left;" value="&lt;b&gt;Enforced guarantees&lt;/b&gt;&lt;br&gt;Delivery checks actual tokens, quantity, deadline and price cap.&lt;br&gt;Tx/order hashes are audit references, not proof of historical trades.&lt;br&gt;Oracle resolution determines the payout; buying does not guarantee a win.&lt;br&gt;DAO withdrawals remain governed through the Timelock." vertex="1">
+          <mxGeometry height="125" width="570" x="40" y="960" as="geometry" />
+        </mxCell>
+        <mxCell id="evidence" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ecfdf5;strokeColor=#64748b;fontColor=#172033;fontSize=17;spacing=12;fontSize=15;align=left;" value="&lt;b&gt;Verified live on Polygon · 2 October 2026&lt;/b&gt;&lt;br&gt;New vault redeemed real resolved-market shares for 0.1 pUSD.&lt;br&gt;Both outcomes burned; caller received 0; adapter approval cleared.&lt;br&gt;Existing deployed vaults have no redeem function and remain unchanged." vertex="1">
+          <mxGeometry height="125" width="570" x="660" y="960" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  

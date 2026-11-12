@@ -1,0 +1,12 @@
+{
+  "intent": "illustrative-buy-001",
+  "description": "Illustrative proposal: acquire 100 YES shares for a fixed total payment of 55 pUSD, inclusive of execution costs.",
+  "governor": "0x1111111111111111111111111111111111111111",
+  "vault": "0x2222222222222222222222222222222222222222",
+  "executor": "0x3333333333333333333333333333333333333333",
+  "conditionId": "0xaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+  "tokenId": "11",
+  "shares": "100",
+  "payment": "55",
+  "deadline": "2030-01-01T00:00:00Z"
+}

@@ -1,0 +1,12 @@
+node_modules/
+artifacts/
+cache/
+typechain-types/
+.env
+output/
+.venv/
+__pycache__/
+.dev.vars*
+.wrangler/
+automation/dist/
+!.dev.vars.example

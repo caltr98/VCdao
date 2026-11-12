@@ -1,0 +1,18 @@
+{
+  "$schema": "./node_modules/wrangler/config-schema.json",
+  "name": "prestifilippo-polymarket-automation",
+  "main": "src/index.ts",
+  "compatibility_date": "2026-09-26",
+  "compatibility_flags": ["nodejs_compat"],
+  "observability": { "enabled": true },
+  "triggers": { "crons": ["* * * * *"] },
+  "durable_objects": { "bindings": [{ "name": "RUNNER", "class_name": "DaoRunner" }] },
+  "migrations": [{ "tag": "v1", "new_sqlite_classes": ["DaoRunner"] }],
+  "vars": {
+    "POLYGON_RPC_URL": "https://polygon-bor-rpc.publicnode.com",
+    "DAO_CONFIG": "",
+    "EXECUTION_ENABLED": "false",
+    "ORDER_SUBMISSION_ENABLED": "false",
+    "MAX_TOTAL_GAS_WEI": "0"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "note": "Illustrative plan. Review every value; the issuer and market are placeholders that a live deployment refuses. Voting counts Polygon blocks (about two seconds each).",
+  "timelockDelaySeconds": 86400,
+  "votingDelayBlocks": 1800,
+  "votingPeriodBlocks": 43200,
+  "skillWeightBps": 5000,
+  "trustedIssuer": "0x1111111111111111111111111111111111111111",
+  "markets": [
+    {
+      "conditionId": "0xaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "yesToken": "11",
+      "noToken": "12",
+      "skillTopic": 2,
+      "closesAt": "2030-01-01T00:00:00Z",
+      "uri": "https://polymarket.com/event/example"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "name": "prestifilippo-polymarket-dao",
+  "version": "1.0.0",
+  "description": "Market proposals, expertise-weighted voting and delivery of approved Polymarket positions",
+  "main": "index.js",
+  "scripts": {
+    "compile": "hardhat compile",
+    "test": "hardhat test",
+    "demo": "hardhat run scripts/contract-demo.ts",
+    "demo:delivery": "hardhat run scripts/demo.ts",
+    "market": "ts-node scripts/market.ts",
+    "proposal": "ts-node scripts/proposal.ts",
+    "contract-order": "ts-node scripts/contract-order.ts",
+    "check:fork": "hardhat --config hardhat.fork.config.ts run scripts/fork-check.ts",
+    "verify": "ts-node scripts/verify.ts",
+    "typecheck": "tsc --noEmit",
+    "check:fork-e2e": "hardhat --config hardhat.fork.config.ts run scripts/fork-e2e.ts",
+    "check:fork-safe": "hardhat --config hardhat.fork.config.ts run scripts/fork-safe.ts",
+    "check:fork-mandate": "hardhat --config hardhat.fork.config.ts run scripts/fork-mandate.ts",
+    "check:fork-redemption": "hardhat --config hardhat.fork.config.ts run scripts/fork-dao-redemption.ts",
+    "test:redemption-journal": "hardhat --config hardhat.fork.config.ts test checks/redemption-journal.ts",
+    "check:fork-delivery-session": "hardhat --config hardhat.fork.config.ts run scripts/fork-delivery-session.ts",
+    "deploy:rehearsal": "hardhat --config hardhat.fork.config.ts run scripts/deploy.ts",
+    "deploy:polygon": "hardhat run scripts/deploy.ts --network polygon"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^6.1.0",
+    "hardhat": "^2.28.6"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^5.4.0",
+    "dotenv": "^17.3.1",
+    "ethers": "6.17.0"
+  }
+}

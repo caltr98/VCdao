@@ -1,0 +1,15 @@
+{
+  "mode": "contract",
+  "intent": "illustrative-contract-order-001",
+  "description": "Illustrative contract order: acquire 100 YES shares with a 50 pUSD principal limit and a 2 pUSD fee allowance.",
+  "governor": "0x1111111111111111111111111111111111111111",
+  "vault": "0x2222222222222222222222222222222222222222",
+  "automation": "0x3333333333333333333333333333333333333333",
+  "exchange": "0xE111180000d2663C0091e4f400237545B87B996B",
+  "conditionId": "0xaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+  "tokenId": "11",
+  "shares": "100",
+  "principal": "50",
+  "feeBudget": "2",
+  "deadline": "2030-01-01T00:00:00Z"
+}
